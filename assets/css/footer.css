@@ -1,0 +1,62 @@
+/*
+#
+# Footer
+#
+*/
+footer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:var(--main-color);
+}
+#footer-links {
+    display:flex;
+    align-items: center;
+}
+
+.social-networks {
+    list-style-type: none;
+    display:flex;
+}
+
+.social-networks i {
+    color: var(--text-color);
+    font-size: clamp(2rem, 10vw, 4rem);
+    margin: 1%;
+    padding: 1rem;
+    
+    transition: 0.3s;
+}
+
+.social-networks i:hover {
+    transition: 0.3s;
+}
+
+/* shortened icon ids to avoid adblocker */
+#f-ico:hover {
+    color:#1877f2;
+}
+#t-ico:hover {
+    color:#1da1f2;
+}
+#y-ico:hover {
+    color:#ff0000;
+}
+#i-ico:hover {
+    color:#e1306c;
+}
+
+.feedback-btn {
+    text-decoration: none;
+    background:var(--inverted-color);
+    color:black;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding:0.5rem;
+    transition: 0.3s;
+}
+.feedback-btn:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
+    
+}
