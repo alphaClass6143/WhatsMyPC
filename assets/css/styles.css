@@ -151,7 +151,7 @@ header {
     flex-direction: column;
     top: 1.2em;
     right: 2em;
-    position:absolute;
+    position:fixed;
     height: 4em;
     width: 4em;
     z-index:99;
@@ -201,15 +201,13 @@ header {
 }
 
 #main-nav input[type="checkbox"] ~ ul {
-    /* display:none; */
     list-style-type: none;
     display: flex;
     width:100vw;
     justify-content: space-around;
     gap:2rem;
     padding:2rem;
-    /* flex-direction: column-reverse; */
-    position:absolute;
+    position:fixed;
     background-color: gold;
     border-bottom-left-radius: 5px;
     top:calc(-100vh + 6rem);
@@ -229,3 +227,88 @@ header {
     top:6rem;
     transition: 0.5s ease top;
 }
+
+/*
+#
+# Main
+#
+*/
+main {
+    margin-top: 6rem;
+
+}
+
+
+/*
+#
+# Introduction
+#
+*/
+#introduction-container {
+    display: grid;
+    padding:10vw 1rem; 
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+#introduction-image {
+
+}
+
+#introduction-text {
+    max-width:50rem;
+    padding:2rem;
+    border-radius: 10px;
+    background:lightblue;
+}
+
+/*
+#
+# Overview
+#
+*/
+#overview-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#overview-list {
+    list-style-type: none;
+    display:flex;
+    gap:2rem;
+
+}
+
+#overview-list li {
+    
+}
+#overview-list a {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4); 
+    display:flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    padding:2rem;
+    
+    background-color: gray;
+    transition: 0.3s;
+}
+
+#overview-list a h3 {
+    color:white;
+    font-size: 2rem;
+}
+
+#overview-list a:hover {
+    cursor:pointer;
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+
+/*
+#
+# Article
+#
+*/
