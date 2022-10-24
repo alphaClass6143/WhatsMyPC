@@ -11,6 +11,7 @@
 /* Set variables */
 :root {
     --text-color: #F2F7FF;
+    --inverted-text-color: black;
     --main-color: #0B409C;
     --secondary-color: #10316B;
     --inverted-color: #FDBE34;
@@ -23,7 +24,10 @@ body {
     color:var(--text-color);    
 }
 
-
+a {
+    text-decoration:none;
+    color:var(--text-color);
+}
 
 /*
 #
@@ -55,17 +59,27 @@ main {
 #
 */
 #introduction-container {
-    display: grid;
-    padding:10vw 1rem; 
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5vw 1rem; 
+    gap:10vw;
 }
+
+#introduction-image {
+}
+
+#introduction-image img {
+    max-height: 50vh;
+}
+
+
 
 #introduction-text {
     max-width:50rem;
     padding:2rem;
     border-radius: 10px;
-    background:lightblue;
+    background:var(--secondary-color);
 }
 
 /*
@@ -103,7 +117,7 @@ main {
 }
 
 #overview-list a h3 {
-    color:white;
+    color:var(--text-color);
     font-size: 2rem;
 }
 
@@ -124,12 +138,33 @@ main {
     padding:5rem 3rem;
     width:min(95vw, 100rem);
     grid-template-columns: repeat(6, 1fr);
+    color:var(--inverted-text-color);
 }
 
 article {
     grid-column: 1 / 5;
 }
 
+article h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+article h2 {
+    font-size: 2rem;
+}
+
+
 aside {
     grid-column: 6 / 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:3rem 0rem;
+    gap:10vw;
+}
+
+article section {
+    padding:1rem;
 }

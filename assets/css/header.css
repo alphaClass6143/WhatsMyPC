@@ -34,12 +34,34 @@ header {
 #main-nav a {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+    width:clamp(5rem, 40vw, 20rem);
+    height:clamp(5rem, 40vw, 20rem);
+    border-radius:10px;
     text-decoration: none;
+    color: var(--inverted-text-color);
+    background-color: var(--inverted-color);
     /* min-width: 5rem; */
+    transition: 0.3s;
+}
+
+#main-nav a:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+#main-nav a h3 {
+    color:black;
+    font-size: 1.5rem;
+    margin-top:auto;
 }
 
 #main-nav a img {
-    max-width:30vw;
+    max-width:90%;
+    max-height:90%;
+    margin:auto;
 }
 
 #main-nav input[type="checkbox"]:checked + ul li:first-child{
@@ -104,11 +126,13 @@ header {
 
 #main-nav input[type="checkbox"] ~ ul {
     list-style-type: none;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, clamp(5rem, 40vw, 20rem));
+    grid-auto-rows: minmax(150px, auto);
     width:100vw;
     justify-content: space-around;
     gap:2rem;
-    padding:2rem;
+    padding:3rem 10vw;
     position:fixed;
     background-color: var(--secondary-color);
     border-bottom-left-radius: 5px;
@@ -118,7 +142,7 @@ header {
     flex-wrap: wrap;
     overflow-y: scroll;
     max-height:calc(100vh - 6rem);
-    z-index:1;
+    z-index:99;
     margin:0;
 
     transition: 0.5s ease top;
