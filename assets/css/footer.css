@@ -8,6 +8,8 @@ footer {
     flex-direction: column;
     align-items: center;
     background-color:var(--main-color);
+    padding:2rem;
+    height:15rem;
 }
 #footer-links {
     display:flex;
