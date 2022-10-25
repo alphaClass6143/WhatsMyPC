@@ -8,13 +8,27 @@ header {
     position: fixed;
     display: flex;
     align-items: center;
-    padding:3rem;
     justify-content: space-between;
     width: 100vw;
     height:6rem;
     top: 0;
-    z-index: 98;
+    z-index: 99;
     box-shadow: -1px 21px 29px -21px rgba(0,0,0,0.49);
+}
+
+header > a {
+    display:flex;
+    align-items: center;
+    gap:1vw;
+    height:100%;
+    padding:0rem 2vw;
+    z-index: 99;
+    background-color: var(--secondary-color);
+}
+
+header > a img {
+    display:flex;
+    height:80%;
 }
 
 /*
@@ -142,7 +156,7 @@ header {
     flex-wrap: wrap;
     overflow-y: scroll;
     max-height:calc(100vh - 6rem);
-    z-index:99;
+    z-index:98;
     margin:0;
 
     transition: 0.5s ease top;
