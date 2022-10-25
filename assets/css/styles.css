@@ -30,7 +30,7 @@ a {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 4vw, 3rem);
 }
 
 h2 {
@@ -198,15 +198,23 @@ article section {
 #
 */
 #feedback-main {
+    padding:5vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+form .text-box {
+    padding:10px;
+    border:2px solid var(--inverted-color);
+    margin-bottom:1rem;
+    border-radius: 10px;
 }
 form {
     display: flex;
     background:var(--secondary-color);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4); 
-    padding:2vw;
+    padding:min(3rem, 5vw);
     border-radius: 10px;
     flex-direction: column;
     width:min(50rem, 90vw);
@@ -220,10 +228,20 @@ form .btn {
     padding:0.5rem;
     transition: 0.3s;
 }
+
+form textarea {
+    min-height: 5rem;
+    resize: vertical;
+}
 form .btn:hover {
     transition: 0.3s;
     transform: scale(1.05);
     
+}
+
+form #form-control {
+    display: flex;
+    justify-content: space-between;
 }
 
 /*
