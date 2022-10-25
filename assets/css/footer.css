@@ -8,25 +8,31 @@ footer {
     flex-direction: column;
     align-items: center;
     background-color:var(--main-color);
+    gap:clamp(2rem, 20vw, 3rem);
     padding:2rem;
-    height:15rem;
+    /* height:15rem; */
 }
 #footer-links {
     display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:clamp(0.5rem, 2vw, 4rem);
+    
     align-items: center;
 }
 
 .social-networks {
     list-style-type: none;
     display:flex;
+    padding:0;
+    margin:0;
+
 }
 
 .social-networks i {
     color: var(--text-color);
-    font-size: clamp(2rem, 10vw, 4rem);
-    margin: 1%;
+    font-size: clamp(2.5rem, 10vw, 4rem);
     padding: 1rem;
-    
     transition: 0.3s;
 }
 
