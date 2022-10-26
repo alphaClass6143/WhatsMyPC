@@ -52,6 +52,26 @@ The color palette was used from a website. [Link to color palette](<https://colo
 The Ubuntu font from Google Fonts was chosen because it is visually a good looking and clear font, that is easily readable. It was also chosen because of the fitting name for the project (Ubuntu is also an Operating System). The second font is sans-serif if the font is not loading.  
 [Link to Ubuntu font](<https://fonts.google.com/specimen/Ubuntu>)
 
+#### Structure
+
+The page is structured in an easy way with a header, the informational content in the middle and a footer at the bottom.  
+The header has a burger button which expands the navigation menu.  
+The footer has the social media buttons as well as the link to the feedback page.  
+A single component page is meant to cover the questions: “What is it and what does it do?” and “Where is it?”. Sometimes there is additional information or videos.  
+
+The pages of the website are:  
+
+- The homepage with and introduction and component overview
+- The feedback page with a form
+- The single pages that cover the components:
+  - Processor page
+  - Motherboard page
+  - Memory page
+  - Power Supply page
+  - Graphics card page
+  - Storage page
+- A 404 page that redirects back to the start page if anything goes wrong
+
 ### Technologies Used  
 
 #### Languages Used
