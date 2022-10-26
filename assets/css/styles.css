@@ -36,7 +36,7 @@ h1 {
 h2 {
     font-size: clamp(1.25rem, 3vw, 2.5rem);
 }
-p {
+p, figcaption {
     font-size: 1.25rem;
 }
 
@@ -155,8 +155,8 @@ main {
 .part-main {
     display:flex;
     flex-direction: column;
-    padding:5rem 3rem;
-    width:min(95vw, 120rem);
+    padding:5rem min(3rem, 3vw);
+    width:min(100vw, 120rem);
     color:var(--inverted-text-color);
 }
 
@@ -173,6 +173,37 @@ main {
     width: min(25rem, 90vw);
     display:flex;
     justify-content: center;
+}
+
+.horizontal-section > .image-block-row {
+    width: min(25rem, 90vw);
+    display:flex;
+    justify-content: center;
+}
+
+.image-block-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap:5vw;
+
+}
+
+figure {
+    display: flex;
+    gap:min(3rem, 3vw);
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-block-row img {
+    width:min(95vw, 20rem);
+}
+
+.vertical-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .vertical-section > .image-block {
