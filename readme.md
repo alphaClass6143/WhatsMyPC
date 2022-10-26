@@ -52,6 +52,15 @@
 - People who want to know what's in their PC.
 - Teachers who would like to introduce students to PC components
 
+#### User Requirements and Expectations
+
+- Simple navigation between PC components
+- Introduction on how to start learning
+- Links and videos need to work as expected
+- Easy and short explanations on PC components
+- Clear defined structure on how to read the page
+- Readability and Accessibility on every device
+
 ### Design
 
 #### Design Choices
