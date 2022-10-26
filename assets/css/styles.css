@@ -164,6 +164,11 @@ main {
     width: min(60rem, 90vw);
 }
 
+.horizontal-section > .text-block h2 {
+    border-bottom: 2px solid var(--secondary-color);
+    margin-bottom:1vw;
+}
+
 .horizontal-section > .image-block {
     width: min(25rem, 90vw);
     display:flex;
