@@ -12,7 +12,7 @@
     2. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
-    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
     3. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
@@ -36,6 +36,21 @@
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
+
+### Project Goals
+
+#### User Goals
+
+#### Site Owner Goals
+
+### User Experience
+
+#### Target Audience
+
+- People who have little knowledge of PC components
+- People who need a reference page for PC components to look back to
+- People who want to know what's in their PC.
+- Teachers who would like to introduce students to PC components
 
 ### Design
 
@@ -109,9 +124,9 @@ The website was deployed using GitHub Pages by following these steps:
 1. In the GitHub repository navigate to the "Settings" tab
 2. On the left hand menu select "Pages"
 3. For the source select Branch: master
-4. After the webpage refreshes automatically you will see a ribbon at the top saying: "Your site is published at https://alphaclass6143.github.io/WhatsMyPC/"
+4. After the webpage refreshes automatically you will see a box at the top saying: "Your site is live at https://alphaclass6143.github.io/WhatsMyPC/"
 
-You can for fork the repository by following these steps:
+You can fork the repository by following these steps:
 
 1. Go to the repository on GitHub  
 2. Click on the "Fork" button in the upper right hand corner
