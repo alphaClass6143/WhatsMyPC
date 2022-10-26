@@ -47,6 +47,11 @@ This website design was kept simple to not distract from all the information. Th
 
 The color palette was used from a website. [Link to color palette](<https://colorhunt.co/palette/f2f7ff0b409c10316bfdbe34>). Orange and blue are on the opposite of their color spectrum, which makes them good for color blind people. They also harmonise well together. A black text color has been added to compliment the white text color, mainly for the text on orange.
 
+#### Fonts
+
+The Ubuntu font from Google Fonts was chosen because it is visually a good looking and clear font, that is easily readable. It was also chosen because of the fitting name for the project (Ubuntu is also an Operating System). The second font is sans-serif if the font is not loading.  
+[Link to Ubuntu font](<https://fonts.google.com/specimen/Ubuntu>)
+
 ### Technologies Used  
 
 #### Languages Used
