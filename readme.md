@@ -37,7 +37,31 @@
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
 
-## Bugs
+### Technologies Used  
+
+#### Languages Used
+
+- HTML  
+- CSS
+
+#### Frameworks
+
+- Font Awesome
+- Google Fonts
+
+#### Tools
+
+- Visual Studio Code
+- Balsamiq
+- PC Building Simulator 2
+- Adobe Photoshop
+
+#### Pages
+
+- [Colorhunt](<https://colorhunt.co/>)
+- [CSS Generators](<https://html-css-js.com/css/generator>) (to generate effects like drop shadows)
+
+### Bugs
 
 |Status|Bug|Fix|
 |---|---|---|
