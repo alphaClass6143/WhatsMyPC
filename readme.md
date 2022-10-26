@@ -4,7 +4,7 @@
 
 |Status|Bug|Fix|
 |---|---|---|
-|Open|Menu burger button is inconsistently disappearing on smaller screen sizes||
+|Open|Menu burger button is inconsistently disappearing on smaller screen sizes. Update: The button is only disappearing on one page: motherboard||
 
 
 ## Deployment  
