@@ -12,7 +12,7 @@ header {
     width: 100vw;
     height:6rem;
     top: 0;
-    z-index: 99;
+    z-index: 98;
     box-shadow: -1px 21px 29px -21px rgba(0,0,0,0.49);
 }
 
@@ -22,7 +22,6 @@ header > a {
     gap:1vw;
     height:100%;
     padding:0rem 2vw;
-    z-index: 99;
     background-color: var(--secondary-color);
 }
 
@@ -68,7 +67,8 @@ header > a img {
 
 #main-nav a h3 {
     color:black;
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: clamp(1rem, 3vw, 1.5rem);
     margin-top:auto;
 }
 
@@ -146,7 +146,7 @@ header > a img {
     width:100vw;
     justify-content: space-around;
     gap:2rem;
-    padding:3rem 10vw;
+    padding:3rem 5vw;
     position:fixed;
     background-color: var(--secondary-color);
     border-bottom-left-radius: 5px;
@@ -156,7 +156,7 @@ header > a img {
     flex-wrap: wrap;
     overflow-y: scroll;
     max-height:calc(100vh - 6rem);
-    z-index:98;
+    z-index:97;
     margin:0;
 
     transition: 0.5s ease top;
