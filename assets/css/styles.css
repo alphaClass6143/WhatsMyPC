@@ -196,6 +196,19 @@ article h2 {
     justify-content: center;
 }
 
+.image-effect {
+    transition:0.5s;
+}
+.image-shadow {
+    border-radius:10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4); 
+}
+
+.image-effect:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
 .horizontal-section > .image-block-row {
     width: min(25rem, 90vw);
     display:flex;
