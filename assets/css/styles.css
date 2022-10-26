@@ -61,6 +61,7 @@ p, figcaption {
 main {
     margin: 6rem auto 0rem auto;
     min-height: calc(100vh - 21rem);
+    
 }
 
 
@@ -103,6 +104,7 @@ main {
     flex-direction: column;
     align-items: center;
     padding:5vw 5vw;
+    color: var(--inverted-text-color);
 }
 
 #overview-list {
@@ -149,7 +151,7 @@ main {
 
 /*
 #
-# Article
+# Part page
 #
 */
 .part-main {
@@ -158,6 +160,30 @@ main {
     padding:5rem min(3rem, 3vw);
     width:min(100vw, 120rem);
     color:var(--inverted-text-color);
+}
+
+/* Article style */
+article section {
+    margin:5vw 0rem;
+    padding:1rem;
+}
+
+article h1 {
+    text-align: center;
+    font-size: 3rem;
+} 
+
+article h2 {
+    font-size: 2rem;
+}
+
+/* Horizontal sections */
+.horizontal-section {
+    gap:clamp(2rem, 10vw, 8rem);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .horizontal-section > .text-block {
@@ -181,6 +207,24 @@ main {
     justify-content: center;
 }
 
+/* Vertical sections */
+.vertical-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vertical-section > .image-block {
+    display:flex;
+    justify-content: center;
+}
+
+.vertical-section > .text-block h2 {
+    border-bottom: 2px solid var(--secondary-color);
+    margin-bottom:1vw;
+}
+
+/* Image blocks */
 .image-block-row {
     display: flex;
     flex-wrap: wrap;
@@ -198,45 +242,6 @@ figure {
 
 .image-block-row img {
     width:min(95vw, 20rem);
-}
-
-.vertical-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.vertical-section > .image-block {
-    display:flex;
-    justify-content: center;
-}
-
-
-.part-main .horizontal-section {
-    gap:clamp(2rem, 10vw, 8rem);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-article {
-    grid-column: 1 / 5;
-}
-
-article h1 {
-    text-align: center;
-    font-size: 3rem;
-}
-
-article h2 {
-    font-size: 2rem;
-}
-
-
-article section {
-    margin:5vw 0rem;
-    padding:1rem;
 }
 
 /*
