@@ -224,6 +224,12 @@ article h2 {
     margin-bottom:1vw;
 }
 
+.vertical-section > iframe {
+    width: min(70rem, 95vw);
+    height: min(43rem, 58vw);
+
+}
+
 /* Image blocks */
 .image-block-row {
     display: flex;
