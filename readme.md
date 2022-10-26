@@ -43,6 +43,10 @@
 
 This website design was kept simple to not distract from all the information. The width of the website was limited to make it more readable and pictures have been added to aid the text and not make it boring.
 
+#### Color
+
+The color palette was used from a website. [Link to color palette](<https://colorhunt.co/palette/f2f7ff0b409c10316bfdbe34>). Orange and blue are on the opposite of their color spectrum, which makes them good for color blind people. They also harmonise well together. A black text color has been added to compliment the white text color, mainly for the text on orange.
+
 ### Technologies Used  
 
 #### Languages Used
