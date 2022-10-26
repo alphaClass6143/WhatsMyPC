@@ -37,6 +37,12 @@
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
 
+### Design
+
+#### Design Choices
+
+This website design was kept simple to not distract from all the information. The width of the website was limited to make it more readable and pictures have been added to aid the text and not make it boring.
+
 ### Technologies Used  
 
 #### Languages Used
