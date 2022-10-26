@@ -120,7 +120,7 @@ header > a img {
     width: 4em;
 
     top: 1.2em;
-    right: 2em;
+    right: min(3rem, 5vw);
     position:fixed;
     z-index:99;
 
