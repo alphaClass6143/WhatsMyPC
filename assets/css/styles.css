@@ -170,6 +170,11 @@ main {
     justify-content: center;
 }
 
+.vertical-section > .image-block {
+    display:flex;
+    justify-content: center;
+}
+
 
 .part-main .horizontal-section {
     gap:clamp(2rem, 10vw, 8rem);
