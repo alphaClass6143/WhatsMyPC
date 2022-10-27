@@ -272,6 +272,7 @@ article h2 {
 }
 
 .vertical-section > iframe {
+    border:0;
     width: min(70rem, 95vw);
     height: min(43rem, 58vw);
 }
