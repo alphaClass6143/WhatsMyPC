@@ -140,7 +140,7 @@ header > a p {
     cursor:pointer;
 }
 
-#hamburger-btn span {
+#hamburger-btn span:not(:last-child) {
     width:2em;
     height:0.3em;
 
@@ -164,7 +164,7 @@ header > a p {
     transition-delay: 0.3s;
 }
 
-#hamburger-btn span:last-child {
+#hamburger-btn span:nth-child(3) {
     transform: rotateZ(0deg);
     transform-origin: 100%;
     transition-delay: 0.1s;
@@ -181,7 +181,7 @@ header > a p {
     transition: opacity, 0.1s;
 }
 
-#main-nav input[type="checkbox"]:checked + #hamburger-btn span:last-child {
+#main-nav input[type="checkbox"]:checked + #hamburger-btn span:nth-child(3)  {
     transform: rotateZ(45deg) translate(-0.2em, 0.2em);
     transform-origin: 100%;
 }
