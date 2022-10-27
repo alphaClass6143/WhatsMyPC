@@ -96,6 +96,58 @@ The pages of the website are:
   - Storage page
 - A 404 page that redirects back to the start page if anything goes wrong
 
+### Wireframes
+
+<details>
+ <summary>Home</summary>
+ <img src="docs/wireframes/home.png">
+</details>
+
+<details>  
+  <summary>Open menu state</summary>
+  <img src="docs/wireframes/open-menu-state.png">
+</details>
+
+<details>  
+  <summary>Processor page</summary>
+  <img src="docs/wireframes/processor.png">
+</details>
+
+<details>  
+  <summary>Motherboard page</summary>
+  <img src="docs/wireframes/motherboard.png">
+</details>
+
+<details>  
+  <summary>Memory page</summary>
+  <img src="docs/wireframes/memory.png">
+</details>
+
+<details>  
+  <summary>Storage page</summary>
+  <img src="docs/wireframes/storage.png">
+</details>
+
+<details>  
+  <summary>Power Supply page</summary>
+  <img src="docs/wireframes/power-supply.png">
+</details>
+
+<details>  
+  <summary>Graphics Card page</summary>
+  <img src="docs/wireframes/graphics-card.png">
+</details>
+
+<details>  
+  <summary>Feedback page</summary>
+  <img src="docs/wireframes/feedback.png">
+</details>
+
+<details>  
+  <summary>404 page</summary>
+  <img src="docs/wireframes/404.png">
+</details>
+
 ### Technologies Used  
 
 #### Languages Used
@@ -149,3 +201,9 @@ You can clone the repository by following these steps:
 5. Change the current working directory to the one where you want the cloned directory
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)  
 7. Press Enter to create your local clone.
+
+## Credits
+
+## Acknowledgements
+
+## License
