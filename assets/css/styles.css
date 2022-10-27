@@ -29,6 +29,7 @@ a {
     color:var(--text-color);
 }
 
+/* Set font sizes */
 h1 {
     font-size: clamp(1.5rem, 4vw, 3rem);
 }
@@ -36,6 +37,7 @@ h1 {
 h2 {
     font-size: clamp(1.25rem, 3vw, 2.5rem);
 }
+
 p, figcaption {
     font-size: clamp(1rem, 1vw, 1.25rem);
 }
@@ -162,6 +164,11 @@ main {
     padding:5rem min(3rem, 3vw);
     width:min(100vw, 120rem);
     color:var(--inverted-text-color);
+}
+
+.part-main a {
+    color:var(--secondary-color);
+    font-weight: 500;
 }
 
 /* Article style */
