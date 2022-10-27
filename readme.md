@@ -102,7 +102,7 @@ A single component page is meant to cover the questions: “What is it and what 
 
 The pages of the website are:  
 
-- The homepage with and introduction and component overview
+- The homepage with an introduction and component overview
 - The feedback page with a form
 - The single pages that cover the components:
   - Processor page
@@ -179,6 +179,8 @@ The pages of the website are:
 
 ### Tools
 
+- Git
+- GitHub
 - Visual Studio Code
 - Balsamiq
 - PC Building Simulator 2
