@@ -41,7 +41,18 @@
 
 #### User Goals
 
+- Get to learn what components are in a PC.
+- Get to learn what a component does in a PC.
+- See PC components location
+- Have a reference to use again
+- Have a PC parts overview
+
 #### Site Owner Goals
+
+- Educate people about PC components
+- Share knowledge of PC components
+- Promote social media
+- Use it as a portfolio project
 
 ### User Experience
 
