@@ -78,8 +78,6 @@ p, figcaption {
 */
 main {
     margin: 6rem auto 0rem auto;
-    min-height: calc(100vh - 21rem);
-    
 }
 
 
@@ -101,6 +99,7 @@ main {
 
 #introduction-image img {
     max-height: 50vh;
+    width:auto;
 }
 
 #introduction-text {
