@@ -152,6 +152,11 @@ header > a p {
     transition: 0.3s ease transform, 0.3s ease top, 0.3s ease width, 0.3s ease right;
 }
 
+#hamburger-btn span:last-child {
+    background-color: var(--main-color);
+}
+
+
 #hamburger-btn span:first-child {
     transform: rotateZ(0deg);
     transform-origin: 100%;
