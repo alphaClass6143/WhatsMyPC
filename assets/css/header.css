@@ -47,6 +47,10 @@ header > a p {
 */
 /* Nav container */
 #main-nav input[type="checkbox"] ~ ul {
+    /* Define size property variables which can be used within the navbar */
+    --content-width: 90vw;
+    --columns: 1;
+
     width:100vw;
     max-height:calc(100vh - 6rem);
 
@@ -54,12 +58,12 @@ header > a p {
     z-index:97;
     top:calc(-100vh + 6rem);
     left:0vw;
-    margin:0;
+    margin:0 auto;
     padding:3rem 5vw;
     
     display: grid;
-    grid-template-columns: repeat(auto-fill, clamp(5rem, 40vw, 20rem));
-    grid-auto-rows: minmax(150px, auto);
+    place-items: center;
+    grid-template-columns: repeat(var(--columns), 1fr);
     gap:2rem;
 
     background-color: var(--secondary-color);
@@ -69,6 +73,31 @@ header > a p {
     overflow-y: scroll;
 
     transition: 0.5s ease top;
+} 
+
+/* Media queries to adjust the columns depending on the container size */
+@media (min-width: 451px) {
+    #main-nav input[type="checkbox"] ~ ul {
+      --columns: 2;
+    }
+}
+
+@media (min-width: 751px) {
+    #main-nav input[type="checkbox"] ~ ul {
+      --columns: 3;
+    }
+}
+
+@media (min-width: 1201px) {
+    #main-nav input[type="checkbox"] ~ ul {
+      --columns: 4;
+    }
+}
+
+@media (min-width: 1921px) {
+    #main-nav input[type="checkbox"] ~ ul {
+      --columns: 5;
+    }
 }
 
 /* Animate container */
@@ -78,8 +107,9 @@ header > a p {
 }
 
 #main-nav a {
-    width:clamp(5rem, 40vw, 20rem);
-    height:clamp(5rem, 40vw, 20rem);
+    /* calculate square by container size minus padding (which results in the usable space) divided by the amount of columns */
+    width:calc((var(--content-width) - 10vw) / var(--columns));
+    height:calc((var(--content-width) - 10vw) / var(--columns));
 
     padding:1rem;
     border-radius:10px;

@@ -296,6 +296,7 @@ table, th, td {
 /* Image blocks */
 .image-block-row {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: flex-end;
     gap:5vw;
