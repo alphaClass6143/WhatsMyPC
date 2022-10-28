@@ -569,6 +569,11 @@ Webkit based browser (Safari) could not be tested. Chromium based and Quantum ba
 |---|---|---|---|
 Introduction section|Visit page|To learn what this page is about|Works as expected|
 
+<details>
+ <summary>Screenshot</summary>
+ <img src="docs/user-stories/first-story.png">
+</details>
+
 2. I want to know where to start.
 
 |Feature|Action|Expected result|Actual result|
@@ -576,11 +581,23 @@ Introduction section|Visit page|To learn what this page is about|Works as expect
 Introduction section|Visit page|The last paragraph is telling the user where to start.|Works as expected|
 Part overview|Scroll down|The overview paragraph tells the use where to begin.|Works as expected|
 
+<details>
+ <summary>Screenshots</summary>
+ <img src="docs/user-stories/second-story-introduction.png">
+ <br>
+ <img src="docs/user-stories/second-story-overview.png">
+</details>
+
 3. I want to know what is in my PC.
 
 |Feature|Action|Expected result|Actual result|
 |---|---|---|---|
 Component pages|Browsing the component pages|The user learns through all the component pages what in their PC is.|Works as expected|
+
+<details>
+ <summary>Screenshot</summary>
+ <img src="docs/user-stories/third-story.png">
+</details>
 
 
 #### Returning User
