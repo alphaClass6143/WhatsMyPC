@@ -605,11 +605,23 @@ Component pages|Browsing the component pages|The user learns through all the com
 |---|---|---|---|
 Component pages: Where is it section?|Selecting the component [X] page in the navigation and scrolling to the "Where is it?" section|The user finds the section and learns where the component is located in the PC|Works as expected|
 
+<details>
+ <summary>Screenshot</summary>
+ <img src="docs/user-stories/fourth-story.png">
+</details>
+
 5. I want to remind myself what [X] component does.
 
 |Feature|Action|Expected result|Actual result|
 |---|---|---|---|
 Component pages: What is it and what does it do?|Selecting the component [X] page in the navigation and scrolling to the "What is it and what does it do?" section|The user finds the section and learns what the component does|Works as expected|
+
+<details>
+ <summary>Screenshot</summary>
+ <img src="docs/user-stories/fifth-story-step-one.png">
+ <br>
+ <img src="docs/user-stories/fifth-story-step-one.png">
+</details>
 
 6. I want to give feedback.
 
@@ -617,11 +629,21 @@ Component pages: What is it and what does it do?|Selecting the component [X] pag
 |---|---|---|---|
 Feedback page with the feedback form|Scroll to the bottom of the page and click the "Give feedback" button|The user finds the feedback form and sends feedback|Works as expected (If action points to a server to receive the feedback)|
 
+<details>
+ <summary>Screenshot</summary>
+ <img src="docs/user-stories/sixth-story.png">
+</details>
+
 7. I want to follow the site owners social media to learn more.
 
 |Feature|Action|Expected result|Actual result|
 |---|---|---|---|
 Footer with social media|Scroll to the bottom of the page|Social media are at the bottom of every page|Works as expected|
+
+<details>
+ <summary>Screenshot</summary>
+ <img src="docs/user-stories/seventh-story.png">
+</details>
 
 8. I want to see what air and water cooling looks like.
 
@@ -629,17 +651,32 @@ Footer with social media|Scroll to the bottom of the page|Social media are at th
 |---|---|---|---|
 Processor cooling section on the processor page|Open navigation menu and navigate to the processor page and scroll to the "Processor cooling section"|The user finds the "Processor cooling" section and looks at the pictures|Works as expected|
 
+<details>
+ <summary>Screenshot</summary>
+ <img src="docs/user-stories/eighth-story.png">
+</details>
+
 9. I want to see the motherboard keyboard shortcuts that access the BIOS
 
 |Feature|Action|Expected result|Actual result|
 |---|---|---|---|
 Additional info section on the motherboard page|Open navigation menu and navigate to the motherboard page and scroll to the "Additional info section"|The user finds the "Additional info" section and finds the table with the keyboard shortcuts|Works as expected|
 
+<details>
+ <summary>Screenshot</summary>
+ <img src="docs/user-stories/ninth-story.png">
+</details>
+
 10. I want to know more about power supplies
 
 |Feature|Action|Expected result|Actual result|
 |---|---|---|---|
 Deeper dive into power supplies section on the power supply page|Open navigation menu and navigate to the power supply page and scroll to the "Deeper dive into power supplies" section|The user finds the "Deeper dive into power supplies" section and watches the video|Works as expected|
+
+<details>
+ <summary>Screenshot</summary>
+ <img src="docs/user-stories/tenth-story.png">
+</details>
 
 #### Site Owner
 
