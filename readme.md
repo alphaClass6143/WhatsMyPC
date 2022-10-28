@@ -246,6 +246,35 @@ All HTML validation tests have been passed.
 
 ### CSS Validation
 
+The full website gets errors in the CSS validation test from the font awesome framework.  
+Validating the single files passes the tests.  
+Variables can't be validated, they show up as warnings.  
+
+<details>
+ <summary>Whole website CSS</summary>
+ <img src="docs/validation/css/website.png">
+</details>
+
+<details>
+ <summary>Reset CSS</summary>
+ <img src="docs/validation/css/reset.png">
+</details>
+
+<details>
+ <summary>Styles CSS</summary>
+ <img src="docs/validation/css/styles.png">
+</details>
+
+<details>
+ <summary>Header CSS</summary>
+ <img src="docs/validation/css/header.png">
+</details>
+
+<details>
+ <summary>Footer CSS</summary>
+ <img src="docs/validation/css/footer.png">
+</details>
+
 ### Accessibility
 
 ### Performance
