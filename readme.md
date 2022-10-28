@@ -563,6 +563,45 @@ Webkit based browser (Safari) could not be tested. Chromium based and Quantum ba
 
 ### Testing user stories
 
+1. I want to know what this website is about
+
+|Feature|Action|Expected result|Actual result|
+|---|---|---|---|
+Introduction section|Visit page|To learn what this page is about|Works as expected|
+
+2. I want to know where to start.
+
+|Feature|Action|Expected result|Actual result|
+|---|---|---|---|
+Introduction section|Visit page|The last paragraph is telling the user where to start.|Works as expected|
+Part overview|Scroll down|The overview paragraph tells the use where to begin.|Works as expected|
+
+3. I want to know what is in my PC.
+
+|Feature|Action|Expected result|Actual result|
+|---|---|---|---|
+Component pages|Browsing the component pages|The user learns through all the component pages what in their PC is.|Works as expected|
+
+
+#### Returning User
+
+4. I want to see where component [X] is in my PC.
+|Status|Bug|Fix|
+|---|---|---|
+5. I want to remind myself what [X] component does.
+6. I want to give feedback.
+7. I want to follow the site owners social media to learn more.
+8. I want to see what air and water cooling looks like.
+9. I want to see the motherboard keyboard shortcuts that access the BIOS
+10. I want to know more about power supplies
+
+#### Site Owner
+
+11. I want the user to get quickly around the site
+12. I want the user to be able to learn about PC components
+13. I want to promote my social media
+
+
 ## Bugs
 
 |Status|Bug|Fix|
