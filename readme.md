@@ -639,7 +639,7 @@ Additional info section on the motherboard page|Open navigation menu and navigat
 
 |Feature|Action|Expected result|Actual result|
 |---|---|---|---|
-Additional info section on the power supply page|Open navigation menu and navigate to the power supply page and scroll to the "Additional info section"|The user finds the "Additional info" section and watches the video|Works as expected|
+Deeper dive into power supplies section on the power supply page|Open navigation menu and navigate to the power supply page and scroll to the "Deeper dive into power supplies" section|The user finds the "Deeper dive into power supplies" section and watches the video|Works as expected|
 
 #### Site Owner
 
