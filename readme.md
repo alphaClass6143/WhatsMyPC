@@ -277,6 +277,54 @@ Variables can't be validated, they show up as warnings.
 
 ### Accessibility
 
+All Wave accessibility tests pass.  
+9 Alerts per page are from the navbar, which uses p elements.  
+
+<details>
+ <summary>Home</summary>
+ <img src="docs/validation/wave/home.png">
+</details>
+
+<details>
+ <summary>Processor page</summary>
+ <img src="docs/validation/wave/processor.png">
+</details>
+
+<details>
+ <summary>Motherboard page</summary>
+ <img src="docs/validation/wave/motherboard.png">
+</details>
+
+<details>
+ <summary>Memory page</summary>
+ <img src="docs/validation/wave/memory.png">
+</details>
+
+<details>
+ <summary>Storage page</summary>
+ <img src="docs/validation/wave/storage.png">
+</details>
+
+<details>
+ <summary>Power Supply page</summary>
+ <img src="docs/validation/wave/power-supply.png">
+</details>
+
+<details>
+ <summary>Graphics Card page</summary>
+ <img src="docs/validation/wave/graphics-card.png">
+</details>
+
+<details>
+ <summary>Feedback page</summary>
+ <img src="docs/validation/wave/feedback.png">
+</details>
+
+<details>
+ <summary>404 page</summary>
+ <img src="docs/validation/wave/404.png">
+</details>
+
 ### Performance
 
 ### Device testing
