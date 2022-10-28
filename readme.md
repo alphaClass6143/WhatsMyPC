@@ -197,6 +197,53 @@ The pages of the website are:
 
 ### HTML Validation
 
+All HTML validation tests have been passed.  
+
+<details>
+ <summary>Home</summary>
+ <img src="docs/validation/html/home.png">
+</details>
+
+<details>
+ <summary>Processor page</summary>
+ <img src="docs/validation/html/processor.png">
+</details>
+
+<details>
+ <summary>Motherboard page</summary>
+ <img src="docs/validation/html/motherboard.png">
+</details>
+
+<details>
+ <summary>Memory page</summary>
+ <img src="docs/validation/html/memory.png">
+</details>
+
+<details>
+ <summary>Storage page</summary>
+ <img src="docs/validation/html/storage.png">
+</details>
+
+<details>
+ <summary>Power Supply page</summary>
+ <img src="docs/validation/html/power-supply.png">
+</details>
+
+<details>
+ <summary>Graphics Card page</summary>
+ <img src="docs/validation/html/graphics-card.png">
+</details>
+
+<details>
+ <summary>Feedback page</summary>
+ <img src="docs/validation/html/feedback.png">
+</details>
+
+<details>
+ <summary>404 page</summary>
+ <img src="docs/validation/html/404.png">
+</details>
+
 ### CSS Validation
 
 ### Accessibility
