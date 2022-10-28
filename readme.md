@@ -563,6 +563,8 @@ Webkit based browser (Safari) could not be tested. Chromium based and Quantum ba
 
 ### Testing user stories
 
+#### First time user
+
 1. I want to know what this website is about
 
 |Feature|Action|Expected result|Actual result|
@@ -599,6 +601,8 @@ Component pages|Browsing the component pages|The user learns through all the com
  <img src="docs/user-stories/third-story.png">
 </details>
 
+#### Recurring user
+
 4. I want to see where component [X] is in my PC.
 
 |Feature|Action|Expected result|Actual result|
@@ -617,7 +621,7 @@ Component pages: Where is it section?|Selecting the component [X] page in the na
 Component pages: What is it and what does it do?|Selecting the component [X] page in the navigation and scrolling to the "What is it and what does it do?" section|The user finds the section and learns what the component does|Works as expected|
 
 <details>
- <summary>Screenshot</summary>
+ <summary>Screenshots</summary>
  <img src="docs/user-stories/fifth-story-step-one.png">
  <br>
  <img src="docs/user-stories/fifth-story-step-one.png">
@@ -678,10 +682,42 @@ Deeper dive into power supplies section on the power supply page|Open navigation
  <img src="docs/user-stories/tenth-story.png">
 </details>
 
+#### Owner
+
 11. I want the user to get quickly around the site
+
+|Feature|Action|Expected result|Actual result|
+|---|---|---|---|
+The navigation menu|Open navigation menu with the burger button at the top right and navigate to any site|The user finds every component page easily|Works as expected|
+
+<details>
+ <summary>Screenshots</summary>
+ <img src="docs/user-stories/eleventh-story-step-one.png">
+ <br>
+ <img src="docs/user-stories/eleventh-story-step-two.png">
+</details>
+
 12. I want the user to be able to learn about PC components
+
+|Feature|Action|Expected result|Actual result|
+|---|---|---|---|
+Component pages|Visit any component page with the navigation or the part overview|The user finds information about PC components|Works as expected|
+
+<details>
+ <summary>Screenshot</summary>
+ <img src="docs/user-stories/twelfth-story.png">
+</details>
+
 13. I want to promote my social media
 
+|Feature|Action|Expected result|Actual result|
+|---|---|---|---|
+Social media icons in the footer|Scroll to the bottom of any page|The owner and user finds the social media icons|Works as expected|
+
+<details>
+ <summary>Screenshot</summary>
+ <img src="docs/user-stories/thirteenth-story.png">
+</details>
 
 ## Bugs
 
