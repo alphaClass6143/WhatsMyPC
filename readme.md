@@ -92,12 +92,13 @@
 7. I want to follow the site owners social media to learn more.
 8. I want to see what air and water cooling looks like.
 9. I want to see the motherboard keyboard shortcuts that access the BIOS
+10. I want to know more about power supplies
 
 #### Site Owner
 
-10. I want the user to get quickly around the site
-11. I want the user to be able to learn about PC components
-12. I want to promote my social media
+11. I want the user to get quickly around the site
+12. I want the user to be able to learn about PC components
+13. I want to promote my social media
 
 
 ## Design
@@ -214,6 +215,129 @@ The pages of the website are:
 - [CSS Generators](<https://html-css-js.com/css/generator>) (to generate effects like drop shadows)
 
 ## Features
+
+The website has 9 pages in total. 6 pages are
+There are 22 features. Two sections repeat on the 6 component pages.  
+
+### Logo and Navigation Menu
+
+- Shows the logo to the user
+- The navigation menu can be closed and opened
+- Burger button toggles the navigation menu
+- Shows the navigation to the different component pages
+- User stories covered: 3, 12
+
+![Header section](docs/features/header.png)
+![Navigation section](docs/features/header-navbar.png)
+
+### Introduction
+
+- Gives a short introduction to the page
+- Describes what to expect and where to start
+- User stories covered: 1, 2
+
+![Introduction section](docs/features/introduction-section.png)
+
+### Part overview
+
+- Shows all components in the PC
+- Encourages user to start with and component
+- User stories covered: 2
+
+![Part overview section](docs/features/part-overview-section.png)
+
+### Footer
+
+- Shows all social media links
+- Button to the feedback page
+- Short footnote who created the website
+- User stories covered: 6, 7, 13
+
+![Footer](docs/features/footer.png)
+
+### What is it and what does it do?  
+
+- Is on the following pages:
+  - Processor page
+  - Motherboard page
+  - Memory page
+  - Storage page
+  - Power Supply page
+  - Graphics Card page
+- Text that introduces the component explaining what it is and what it does
+- Motherboard page has a video instead of text explaining the component.  
+- Shows a picture of the component (Exception: The Motherboard page only shows the video)
+- User stories covered: 5, 3, 12
+
+![Processor section](docs/features/processor-what-section.png)
+<details>
+ <summary>View "What is it and what does it do?" section for other pages</summary>
+ <img src="docs/features/motherboard-what-section.png">
+ <img src="docs/features/memory-what-section.png">
+ <img src="docs/features/storage-what-section.png">
+ <img src="docs/features/power-supply-what-section.png">
+ <img src="docs/features/graphics-card-what-section.png">
+</details>
+
+### Where is it?  
+
+- Is on the following pages:
+  - Processor page
+  - Motherboard page
+  - Memory page
+  - Storage page
+  - Power Supply page
+  - Graphics Card page
+- Text that explaining the position of the component in the PC
+- A picture (or several pictures) that shows the position of the component within the PC
+- User stories covered: 4, 12
+
+![Processor section](docs/features/processor-where-section.png)
+<details>
+ <summary>View "Where is it?" section for other pages</summary>
+ <img src="docs/features/motherboard-where-section.png">
+ <img src="docs/features/memory-where-section.png">
+ <img src="docs/features/storage-where-section.png">
+ <img src="docs/features/power-supply-where-section.png">
+ <img src="docs/features/graphics-card-where-section.png">
+</details>
+
+### Processor cooling
+
+- Explains the importance of processor cooling
+- Shows off air and water cooling and how it looks in the PC
+- User stories covered: 8, 12
+
+![Processor cooling section](docs/features/processor-cooling-section.png)
+
+### Motherboard additional info
+
+- Gives additional info about motherboards
+- Features a small table with keyboard shortcuts for motherboard
+- User stories covered: 9, 12
+
+![Motherboard additional info section](docs/features/motherboard-additional-section.png)
+
+### Deeper dive into power supplies
+
+- Shows a video which dives deeper into power supplies
+- User stories covered: 10, 12
+
+![Power supply additional info section](docs/features/power-supply-additional-section.png)
+
+### Graphics Card additional info
+
+- Short text explaining the importance of graphic cards
+- User stories covered: 3, 5, 12
+
+![Power supply additional info section](docs/features/power-supply-additional-section.png)
+
+### Feedback section
+
+- A form for the user to send feedback
+- User stories covered: 6
+
+![Feedback section](docs/features/feedback-section.png)
 
 ## Validation and Testing
 
