@@ -778,3 +778,6 @@ Guides on Flexbox and Grid from CSS-Tricks, that have been used multiple times a
 - A thanks to the Code Institute for the great learning resources
 
 ## License
+
+This project is published under the MIT license.  
+[License](/LICENSE.txt)
