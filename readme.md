@@ -78,6 +78,28 @@
 
 ### User Stories
 
+#### First-time User
+
+1. I want to know what this website is about
+2. I want to know where to start.
+3. I want to know what is in my PC.
+
+#### Returning User
+
+4. I want to see where component [X] is in my PC.
+5. I want to remind myself what [X] component does.
+6. I want to give feedback.
+7. I want to follow the site owners social media to learn more.
+8. I want to see what air and water cooling looks like.
+9. I want to see the motherboard keyboard shortcuts that access the BIOS
+
+#### Site Owner
+
+10. I want the user to get quickly around the site
+11. I want the user to be able to learn about PC components
+12. I want to promote my social media
+
+
 ## Design
 
 ### Design Choices
