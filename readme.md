@@ -327,6 +327,73 @@ All Wave accessibility tests pass.
 
 ### Performance
 
+The lighthouse tests were good. The performance section was a little weak on pages with youtube videos embedded.  
+Some performance issues were due to the images not being served in next gen formats.  
+Below are all reports to every page.
+
+<details>
+ <summary>Home page</summary>
+ <img src="docs/validation/lighthouse/summary/home.png">
+ <br>
+ <a href="docs/validation/lighthouse/report/home.pdf">Read full report to Home page (PDF)</a>
+</details>
+
+<details>
+ <summary>Processor page</summary>
+ <img src="docs/validation/lighthouse/summary/processor.png">
+ <br>
+ <a href="docs/validation/lighthouse/report/processor.pdf">Read full report to Processor page (PDF)</a>
+</details>
+
+<details>
+ <summary>Motherboard page</summary>
+ <img src="docs/validation/lighthouse/summary/motherboard.png">
+ <br>
+ <a href="docs/validation/lighthouse/report/motherboard.pdf">Read full report to Motherboard page (PDF)</a>
+</details>
+
+<details>
+ <summary>Memory page</summary>
+ <img src="docs/validation/lighthouse/summary/memory.png">
+ <br>
+ <a href="docs/validation/lighthouse/report/memory.pdf">Read full report to Memory page (PDF)</a>
+</details>
+
+<details>
+ <summary>Storage page</summary>
+ <img src="docs/validation/lighthouse/summary/storage.png">
+ <br>
+ <a href="docs/validation/lighthouse/report/storage.pdf">Read full report to Storage page (PDF)</a>
+</details>
+
+<details>
+ <summary>Power Supply page</summary>
+ <img src="docs/validation/lighthouse/summary/power-supply.png">
+ <br>
+ <a href="docs/validation/lighthouse/report/power-supply.pdf">Read full report to Power Supply page (PDF)</a>
+</details>
+
+<details>
+ <summary>Graphics Card page</summary>
+ <img src="docs/validation/lighthouse/summary/graphics-card.png">
+ <br>
+ <a href="docs/validation/lighthouse/report/graphics-card.pdf">Read full report to Graphics Card page (PDF)</a>
+</details>
+
+<details>
+ <summary>Feedback page</summary>
+ <img src="docs/validation/lighthouse/summary/feedback.png">
+ <br>
+ <a href="docs/validation/lighthouse/report/feedback.pdf">Read full report to Feedback page (PDF)</a>
+</details>
+
+<details>
+ <summary>404 page</summary>
+ <img src="docs/validation/lighthouse/summary/404.png">
+ <br>
+ <a href="docs/validation/lighthouse/report/404.pdf">Read full report to 404 page (PDF)</a>
+</details>
+
 ### Device testing
 
 The website was tested on the following devices:
