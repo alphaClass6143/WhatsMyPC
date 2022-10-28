@@ -612,6 +612,13 @@ CSS Reset has been used in the reset.css file.
 It was written by Andy Bell in a blog post:  
 [Blog post](<https://piccalil.li/blog/a-modern-css-reset/>)
 
+Guides on Flexbox and Grid from CSS-Tricks, that have been used multiple times as a reference.
+[Complete Guide to Grid](<https://css-tricks.com/snippets/css/complete-guide-grid/>)
+[Complete Guide to Flexbox](<https://css-tricks.com/snippets/css/a-guide-to-flexbox/>)
+
 ### Acknowledgements
+
+- A special thanks to my mentor Mo Shami for his feedback and advice, especially on the documentation.
+- A thanks to the Code Institute for the great learning resources
 
 ## License
