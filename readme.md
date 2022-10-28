@@ -38,8 +38,10 @@
 7. [Bugs](#bugs)
 8. [Deployment](#deployment)
 9. [Credits](#credits)
-10. [Acknowledgements](#acknowledgements)
-11. [License](#license)
+    1. [Media](#media)
+    2. [Code](#code)
+    3. [Acknowledgements](#acknowledgements)
+10. [License](#license)
 
 ## Project Goals
 
@@ -593,6 +595,23 @@ You can clone the repository by following these steps:
 
 ## Credits
 
-## Acknowledgements
+### Media
+
+All component picture have been taken in the PC Building Simulator 2:  
+[PC Building Simulator 2](<https://www.pcbuildingsim.com/>)  
+
+The two embedded videos are from the PowerCert Animated Videos channel:  
+[PowertCert Animated Videos](<https://www.youtube.com/c/PowerCertAnimatedVideos>)  
+
+Icons are taken from Font Awesome:  
+[FontAwesome](<https://fontawesome.com/>)
+
+### Code
+
+CSS Reset has been used in the reset.css file.  
+It was written by Andy Bell in a blog post:  
+[Blog post](<https://piccalil.li/blog/a-modern-css-reset/>)
+
+### Acknowledgements
 
 ## License
