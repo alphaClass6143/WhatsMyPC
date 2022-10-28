@@ -678,8 +678,6 @@ Deeper dive into power supplies section on the power supply page|Open navigation
  <img src="docs/user-stories/tenth-story.png">
 </details>
 
-#### Site Owner
-
 11. I want the user to get quickly around the site
 12. I want the user to be able to learn about PC components
 13. I want to promote my social media
